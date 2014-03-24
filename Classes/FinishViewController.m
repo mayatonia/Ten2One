@@ -166,8 +166,8 @@
 			[myparams addObject:[SimpleDbAttribute create:@"LOC_STATE" value:_PlayerScore.S_LOCATION_STATE replace:FALSE]];
 			[myparams addObject:[SimpleDbAttribute create:@"LOC_COUNTRY" value:_PlayerScore.S_LOCATION_COUNTRY replace:FALSE]];
 			
-			NSString *awsSK = [NSString stringWithString:@"AKIAIXSVOL4UTHWKS36A"];
-			NSString *awsSSK = [NSString stringWithString:@"x3VcUfvwezbUoz5jPilSII+z2uYlY/uQlSJAqFmm"];
+			NSString *awsSK = [NSString stringWithString:@"--"];
+			NSString *awsSSK = [NSString stringWithString:@"--"];
 			
 			[sdb setAWSAccount:awsSK secret:awsSSK];
 			sdb.delegate = self;
